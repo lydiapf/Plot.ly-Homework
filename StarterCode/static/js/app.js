@@ -55,8 +55,8 @@ function createChart(sampleData){
         Plotly.newPlot("bar", bardata);
 
         var bubbleData = [{
-            x: sampleval.slice(0,10),
-            y: otuID.slice(0,10).map(otuID => `OTU${otuID}`),
+            x: otuID,
+            y: sampleval,
             mode: "markers",
             marker: {
                 size: sampleval,

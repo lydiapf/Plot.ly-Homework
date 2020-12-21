@@ -68,7 +68,7 @@ function createChart(sampleData){
         var layout_bub = {
             xaxis:{title: "OTU ID"},
             height: 600,
-            width: 1000
+            width: 1300
         };
 
         Plotly.newPlot("bubble", bubbleData, layout_bub); 

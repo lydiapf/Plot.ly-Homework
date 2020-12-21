@@ -55,17 +55,15 @@ function createChart(sampleData){
         Plotly.newPlot("bar", bardata);
 
         var bubbleData = [{
-            x: sampleval.slice(0,10).reverse(),
-            y: otuID.slice(0,10).map(otuID => `OTU${otuID}`).reverse(),
+            x: sampleval.slice(0,10),
+            y: otuID.slice(0,10).map(otuID => `OTU${otuID}`),
             mode: "markers",
             marker: {
                 size: sampleval,
                 color: otuID,
             },
-            text: otuLab.slice(0,10).reverse()
+            text: otuLab
         }];
-
-        var b_data = [bubbleData];
 
         var layout_bub = {
             xaxis:{title: "OTU ID"},
@@ -73,7 +71,7 @@ function createChart(sampleData){
             width: 1000
         };
 
-        Plotly.newPlot("bubble", b_data, layout_bub); 
+        Plotly.newPlot("bubble", bubbleData, layout_bub); 
 
     });
 }

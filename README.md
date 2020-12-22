@@ -1,6 +1,6 @@
 # Plot.ly Homework - Belly Button Biodiversity
 
-Visit Belly Button Biodiversity Website >> [Click Here!](https://lydiapf.github.io/Plot.ly-Homework/StarterCode/)
+Visit my Belly Button Biodiversity Dashboard Website >> [Click Here!](https://lydiapf.github.io/Plot.ly-Homework/StarterCode/)
 
 ![Bacteria by filterforge.com](Images/bacteria.jpg)
 
